@@ -1,0 +1,11 @@
+input_password = "12345"
+attempt = 0
+while attempt <3: 
+    input_passwor = input("enter your password: ")
+    attempt += 1
+    if input_password == "correct password":
+        print("access granted! ")
+        break
+    else:
+     print("incorrect password. try again in 1 hour.")
+    
